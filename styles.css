@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+    background-image: url('images/back5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+
+    
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.menu {
+    width: 45px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    height: 88%;
+    align-items: center;
+
+}
+
+.col {
+    flex-basis: 50%;
+    
+
+}
+
+h1 {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.col p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+button {
+
+    width: 100px;
+    height: 16px;
+    color: #000;
+    font-size: 11px;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+
+}
+
+button:hover {
+    background-color: rgb(110, 109, 106);
+}
+
+
+
+
+
+@media (min-width: 700px){
+    .card {
+        width: 200px;
+        height: 230px;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        transition: transform 0.5s;
+    
+    
+    }
+
+}
+
+@media (max-width: 700px){
+    .card {
+        width: 120px;
+        height: 115px;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        transition: transform 0.5s;
+    
+    
+    }
+
+}
+
+
+.card1 {
+    background-image: url('images/zelda4.jpg');
+}
+
+.card2 {
+    background-image: url('images/link2.jpg');
+}
+
+.card3 {
+    background-image: url('images/champion.jpg');
+}
+
+.card4 {
+    background-image: url('images/horsejpg.jpg');
+}
+
+
+.card:hover {
+    transform: translateY(-10px);
+}
